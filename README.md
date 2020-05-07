@@ -17,11 +17,11 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: Session Hijack
 
 Description:
 
-<img src="blue-vuln1.gif">
+<img src="blue-session.gif">
 
 Vulnerability #2: __________________
 
@@ -46,7 +46,7 @@ Description:
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: IDOR
 
 Description:
 
