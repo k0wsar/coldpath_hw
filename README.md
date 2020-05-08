@@ -41,11 +41,11 @@ Description: When a valid username is used to log but is unsuccessful due to inc
 
 ![](green_userenum.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: XSS
 
-Description:
+Description: In the contact company section, putting in any name and valid email structure allows for a message to be sent. An xss script can then be sent and tested on the page. When a user logs in and checks the feed back and message box should appear with the written text. 
 
-<img src="green-vuln2.gif">
+![](green_xss.gif)
 
 
 ## Red
@@ -58,7 +58,7 @@ After clicking on a representative in the Find a Salesperson menu, the URL will 
 
 ![](red_IDOR.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: 
 
 Description:
 
@@ -67,4 +67,4 @@ Description:
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+It can become very overwhelming to see which vulnerability is present in what respective color. This is especially so in the beginning when it is hard to determine where to even start.
