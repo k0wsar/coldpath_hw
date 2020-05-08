@@ -21,7 +21,7 @@ Vulnerability #1: Session Hijack
 
 Description:
 
-<img src="blue-session.gif">
+![](blue_session.gif)
 
 Vulnerability #2: __________________
 
