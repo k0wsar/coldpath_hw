@@ -21,15 +21,15 @@ Vulnerability #1: Session Hijack
 
 Description:
 
-This attack took advantage of the PHP script that was left, and deployed a session fixaton. The PHP script was loaded in for the 
+This attack took advantage of the PHP script that was left, and deployed a session hijack. A browser in google chrome was used to log in to a session. The PHP script was then loaded to gain access to the session ID. Then burp intercepted the login page of the site on a Firefox browser. There the session ID was changed to that of the logged in ID from the google browser and forwarded back to Firefox. The result was a successful log in using the hijacked session ID.
 
 ![](blue_session.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: SQLI
 
 Description:
 
-<img src="blue-vuln2.gif">
+![](blue_sqli.gif)
 
 ## Green
 
