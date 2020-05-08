@@ -35,11 +35,11 @@ Description: When editing the URL id number for the salesperson changin the numb
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Username Enumeration
 
-Description:
+Description: When a valid username is used to log but is unsuccessful due to incorrect password, the login fail text is bold, whereas with an invalid username the font is regular. This can be inspected in the style statement from the text is a css class called .failure which is displayed when a valid username is used.
 
-<img src="green-vuln1.gif">
+![](green_userenum.gif)
 
 Vulnerability #2: __________________
 
