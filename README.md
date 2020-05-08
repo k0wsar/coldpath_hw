@@ -21,6 +21,8 @@ Vulnerability #1: Session Hijack
 
 Description:
 
+This attack took advantage of the PHP script that was left, and deployed a session fixaton. The PHP script was loaded in for the 
+
 ![](blue_session.gif)
 
 Vulnerability #2: __________________
@@ -50,7 +52,9 @@ Vulnerability #1: IDOR
 
 Description:
 
-<img src="red-vuln1.gif">
+After clicking on a representative in the Find a Salesperson menu, the URL will end in an id repsective to a representative. If the id is changed to 11 it will show data that would seem inappropriate for the public to access. The other color sites are protected from this vulnerability.
+
+![](red_IDOR.gif)
 
 Vulnerability #2: __________________
 
