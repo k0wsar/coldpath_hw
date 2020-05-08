@@ -27,7 +27,9 @@ This attack took advantage of the PHP script that was left, and deployed a sessi
 
 Vulnerability #2: SQLI
 
-Description:
+Description: When editing the URL id number for the salesperson changin the number shows the respective representative. This is done fairly instantaneously. However, when the following SQL line is placed in the value for the id, the server takes several seconds to load, indicating it registers the command and can be infiltrated with other injections. 
+
+>%27%20OR%20SLEEP(5)=0--%27
 
 ![](blue_sqli.gif)
 
